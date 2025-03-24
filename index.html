@@ -7,20 +7,162 @@
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workintech + 🍕</title>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
-    <div id="app">
-      <div>
-        <a href="https://github.com/Workintech/fsweb-s5-bonus-challenge-html-pizza" target="_blank">
-          <img src="./workintech.svg" class="logo" alt="Workintech logo">
-        </a>
-        <h1>Hello Coder!</h1>
-        <p class="read-the-docs">
-          Click on the Workintech logo to see the Readme of the project
-        </p>
+    <header>
+      <img class="logo" src="assets/iteration-1/logo.svg">
+      <p class="firsat">fırsatı kaçırma</p>
+      <p class="header-yazi">KOD ACIKTIRIR</p>
+      <p class="header-yazi">PIZZA, DOYURUR</p>
+      <button class="aciktimbtn">ACIKTIM</button>
+    </header>
+    <section class="menu">
+      <div class="header-alt">
+        <img id="kore" src="/public/assets/iteration-2/icons/1.svg">
+        <p>YENİ! Kore</p>
       </div>
-    </div>
+      <div class="header-alt">
+        <img src="/public/assets/iteration-2/icons/2.svg">
+        <p>Pizza</p>
+      </div>
+      <div class="header-alt">
+        <img src="/public/assets/iteration-2/icons/3.svg">
+        <p>Burger</p>
+      </div>
+      <div class="header-alt">
+        <img src="/public/assets/iteration-2/icons/4.svg">
+        <p>Kızartmalar</p>
+      </div>
+      <div class="header-alt">
+        <img src="/public/assets/iteration-2/icons/5.svg">
+        <p>Fast food</p>
+      </div>
+      <div class="header-alt">
+        <img src="/public/assets/iteration-2/icons/6.svg">
+        <p>Gazlı İçecek</p>
+      </div>
+    </section>
+    <section class="main">
+      <section class="cards">
+        <div class="first-card">
+          <h2 class="firstcard-header">Özel<br>Lezzetus</h2>
+          <p class="firstcard-p">Position: Absolute Acı Burger</p>
+          <button class="btn-first">SİPARİŞ VER</button>
+        </div>
+        <div class="cards-right">
+          <div class="second-card">
+            <h2 class="secondcard-header">Hackathlon</br>Burger Menü</h2>
+            <button class="btn">SİPARİŞ VER</button>
+          </div>
+          <div class="third-card">
+            <h2 class="thirdcard-header"><span style="color: #CE2829;">Çoooook</span> hızlı</br>npm gibi kurye</h2>
+            <button class="btn">SİPARİŞ VER</button>
+          </div>
+        </div>
+      </section>
+      <section class="paketlenen-menuler">
+        <h3 class="paketlenen">en çok paketlenen menüler</h3>
+        <h2 class="aciktiran">Acıktıran Kodlara Doyuran Lezzetler</h2>
+        <div class="menu2">
+          <div class="hizli-menu">
+            <img src="/public/assets/iteration-2/icons/1.svg">
+            <p>Ramen</p>
+          </div>
+          <div id= "pizza" class="hizli-menu">
+            <img src="/public/assets/iteration-2/icons/2.svg">
+            <p>Pizza</p>
+          </div>
+          <div class="hizli-menu">
+            <img src="/public/assets/iteration-2/icons/3.svg">
+            <p>Burger</p>
+          </div>
+          <div class="hizli-menu">
+            <img src="/public/assets/iteration-2/icons/4.svg">
+            <p>French Fries</p>
+          </div>
+          <div class="hizli-menu">
+            <img src="/public/assets/iteration-2/icons/5.svg">
+            <p>Fast food</p>
+          </div>
+          <div class="hizli-menu">
+            <img src="/public/assets/iteration-2/icons/6.svg">
+            <p>Soft Drinks</p>
+          </div>
+        </div>
+        <div class="pizzalar">
+          <div class="pizza-card">
+            <img src="public/assets/iteration-2/pictures/food-1.png">
+            <p style="margin-bottom: 0;">Terminal Pizza</p>
+            <div class="puan-fiyat">
+              <p style="color: #5F5F5F ;">4.9</p> <p style="color: #5F5F5F ;">(200)</p> <p style="font-weight: 700;">60₺</p>
+            </div>
+          </div>
+          <div class="pizza-card">
+            <img src="public/assets/iteration-2/pictures/food-2.png">
+            <p style="margin-bottom: 0;">Position Absolute Acı Pizza</p>
+            <div class="puan-fiyat">
+              <p style="color: #5F5F5F ;">4.9</p> <p style="color: #5F5F5F ;">(200)</p> <p style="font-weight: 700;">60₺</p>
+            </div>
+          </div>
+          <div class="pizza-card">
+            <img src="public/assets/iteration-2/pictures/food-3.png">
+            <p style="margin-bottom: 0;">useEffect Tavuklu Burger</p>
+            <div class="puan-fiyat">
+              <p style="color: #5F5F5F ;">4.9</p> <p style="color: #5F5F5F ;">(200)</p> <p style="font-weight: 700;">60₺</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer class="footer-section">
+      <div class="footer-first">
+        <address class="address-section">
+          <img class ="footer-logo" src="/public/assets/iteration-2/footer/logo-footer.svg">
+          <div class="ilk-satir">
+            <img class="icon-image" src="/public/assets/iteration-2/footer/icons/icon-1.png">
+            <p>341 Londonderry Road,</br>Istanbul Türkiye</p>
+          </div>
+          <div class="ikinci-satir">
+            <img class="icon-image" src="/public/assets/iteration-2/footer/icons/icon-2.png">
+            <p>aciktim@teknolojikyemekler.com</p>
+          </div>
+          <div class="ucuncu-satir">
+            <img class="icon-image" src="/public/assets/iteration-2/footer/icons/icon-3.png">
+            <p>+90 216 123 45 67</p>
+          </div>
+        </address>
+        <div class="hot-menu">
+          <h2 class="hot-menu-header">Hot Menu</h2>
+          <p>Terminal Pizza</p>
+          <p>5 Kişilik Hackathlon Pizza</p>
+          <p>useEffect Tavuklu Pizza</p>
+          <p>Beyaz Console Frosty</p>
+          <p>Testler Geçti Mutlu Burger</p>
+          <p>Position Absolute Acı Burger</p>
+        </div>
+        <div class="instagram">
+          <h2 class="instagram-header">Instagram</h2>
+          <div class="footer-images">
+            <img src="/public/assets/iteration-2/footer/insta/li-0.png">
+            <img src="/public/assets/iteration-2/footer/insta/li-1.png">
+            <img src="/public/assets/iteration-2/footer/insta/li-2.png">
+            <img src="/public/assets/iteration-2/footer/insta/li-3.png">
+            <img src="/public/assets/iteration-2/footer/insta/li-4.png">
+            <img src="/public/assets/iteration-2/footer/insta/li-5.png">
+          </div>
+        </div>
+      </div>
+      <div class="footer-second">
+        <p>© 2023 Teknolojik Yemekler.</p>
+        <i class="fa fa-twitter"></i>
+      </div>
+    </footer>
   </body>
 
 </html>
